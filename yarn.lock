@@ -31,6 +31,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@actions/exec@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@actions/exec@npm:3.0.0"
+  dependencies:
+    "@actions/io": ^3.0.2
+  checksum: 8a8c2d28088b0daf019c24abd2127e6694f7427f6f8b866cf7e9d1709dcdc3e15156f2f061977a814113c6f2f2368886f2a9cdf21631d2b9bf7ff22fc80e55e2
+  languageName: node
+  linkType: hard
+
 "@actions/http-client@npm:^2.0.1":
   version: 2.0.1
   resolution: "@actions/http-client@npm:2.0.1"
@@ -54,6 +63,13 @@ __metadata:
   version: 1.1.1
   resolution: "@actions/io@npm:1.1.1"
   checksum: d291869b19ac5eea87697100fe51849ea5bacedd556f12789629a5e4ba722fc0daadb37374892301b1c446d1d3b9798ec0fea6ad39e08bccb4ec39bbffb3263e
+  languageName: node
+  linkType: hard
+
+"@actions/io@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@actions/io@npm:3.0.2"
+  checksum: 69c1d58f2b37f4a2248e6d727be900af21e69051c614e161132c6aa459a09654ef84b13b7007f7cc87c7bbaf74e2c37a1add97c76791db64eb810d6a3f4ad96e
   languageName: node
   linkType: hard
 
@@ -3212,7 +3228,7 @@ __metadata:
   resolution: "hugo-github-action@workspace:."
   dependencies:
     "@actions/core": ^1.11.1
-    "@actions/exec": ^1.1.1
+    "@actions/exec": ^3.0.0
     "@actions/http-client": ^2.2.3
     "@actions/tool-cache": ^2.0.2
     "@types/node": ^20.6.0
